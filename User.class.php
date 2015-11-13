@@ -32,7 +32,7 @@ class User{
 		if($stmt->execute()){
 			//salvestas edukalt
 			$success = new StdClass();
-			$success->message = "Sucessfully created new user";
+			$success->message = "Successfully created new user";
 			$response->success = $success;
 		}else{
 			//ei läinud edukalt
