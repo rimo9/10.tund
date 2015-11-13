@@ -53,3 +53,5 @@
 	<?=$InterestManager->createDropdown();?>
 	<input type="submit">
 </form>
+
+<p><?=$InterestManager->getUserInterests($_SESSION["id_from_db"]);?></p>
